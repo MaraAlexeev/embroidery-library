@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "title": "Embroidery Library",
+  "title": "Mara's Embroidery Library",
   "author": "Mara Alexeev",
   "path_base": "Resolve all paths relative to this catalog.json URL.",
   "patterns": [
@@ -36,7 +36,10 @@
         "#cfa05b",
         "#f6cd27",
         "#fff58d"
-      ]
+      ],
+      "finished_photos": [],
+      "inspiration_images": [],
+      "machine": "Brother Skitch PP1"
     },
     {
       "id": "navier-stokes",
@@ -72,7 +75,25 @@
         "#18375c",
         "#087582",
         "#79e1e2"
-      ]
+      ],
+      "finished_photos": [
+        {
+          "src": "patterns/navier-stokes/photos/navier-stokes-finished-01.jpg",
+          "alt": "Completed Navier–Stokes embroidery in blue, teal, pale green, violet and gold thread on light woven fabric.",
+          "caption": "The completed Navier–Stokes embroidery on light woven fabric. Photograph supplied by Mara Alexeev.",
+          "approved_for_publication": true
+        }
+      ],
+      "inspiration_images": [
+        {
+          "src": "patterns/navier-stokes/inspiration/design-artwork.png",
+          "alt": "Flat design artwork showing intertwined blue, turquoise and gold vortex ribbons on white.",
+          "caption": "Saved design artwork: a simplified redraw made during digitizing. The original annotated inspiration image was not retained.",
+          "approved_for_publication": true
+        }
+      ],
+      "machine": "Brother Skitch PP1"
     }
-  ]
+  ],
+  "creator_note": "Made by Mara Alexeev with Codex"
 }

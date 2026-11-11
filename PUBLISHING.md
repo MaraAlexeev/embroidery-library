@@ -10,6 +10,10 @@ Publish a design only after the owner explicitly selects it for public sharing. 
 6. Inspect the complete proposed upload. Push only this collection. GitHub Pages serves `main` → `/docs`; it contains no connection to the private working collection.
 7. Verify the live design pages and downloads after publishing.
 
+## Finished-piece photos
+
+Use the dedicated [finished embroidery workflow](FINISHED_EMBROIDERY.md) for photographs. Only photos explicitly listed in a design's `finished_photos` catalog entries are rendered. A successful sew-out report alone is not a photograph. Adding photos never re-exports a PES file or automatically updates its testing status.
+
 ## Integrating a personal website later
 
 Use `docs/catalog.json` as the public content catalog. Resolve its relative URLs against the catalog URL. Design pages use `patterns/<slug>/`; images and download files live beside each page. Keep these slugs stable. The personal website can use the preview, title, description and testing status while linking to the canonical design page or download. No personal-website changes are made by this repository.
