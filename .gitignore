@@ -6,9 +6,11 @@
 !/docs/patterns/navier-stokes/inspiration/
 !/docs/patterns/navier-stokes/photos/
 !/docs/patterns/waggle-dance/
+!/docs/patterns/waggle-dance/inspiration/
 !/docs/patterns/waggle-dance/photos/
 !/PUBLIC_FILES.json
 !/.gitignore
+!/DESIGN_PAGES.md
 !/FINISHED_EMBROIDERY.md
 !/PUBLISHING.md
 !/README.md
@@ -16,6 +18,7 @@
 !/docs/.nojekyll
 !/docs/catalog.json
 !/docs/index.html
+!/docs/patterns/navier-stokes/DESIGN.md
 !/docs/patterns/navier-stokes/Navier-Stokes-PES.zip
 !/docs/patterns/navier-stokes/README.txt
 !/docs/patterns/navier-stokes/index.html
@@ -31,6 +34,7 @@
 !/docs/patterns/waggle-dance/02-Color-1-to-2-test.pes
 !/docs/patterns/waggle-dance/03-Color-2-to-3-test.pes
 !/docs/patterns/waggle-dance/04-Color-3-to-4-test.pes
+!/docs/patterns/waggle-dance/DESIGN.md
 !/docs/patterns/waggle-dance/PES-command-checks.json
 !/docs/patterns/waggle-dance/README.txt
 !/docs/patterns/waggle-dance/Waggle-Dance-PES.zip
@@ -39,8 +43,10 @@
 !/docs/patterns/waggle-dance/Waggle-Dance-stitches.svg
 !/docs/patterns/waggle-dance/Waggle-Dance-v1.pes
 !/docs/patterns/waggle-dance/index.html
+!/docs/patterns/waggle-dance/inspiration/approved-concept.png
 !/docs/patterns/waggle-dance/photos/README.md
+!/docs/patterns/waggle-dance/photos/waggle-dance-finished-01.jpg
 !/docs/patterns/waggle-dance/publication-checks.json
 !/docs/styles.css
+!/render_design_pages.py
 !/render_finished_photos.py
-!/docs/patterns/waggle-dance/photos/waggle-dance-finished-01.jpg

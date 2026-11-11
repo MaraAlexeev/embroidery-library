@@ -1,4 +1,4 @@
-"""Render only explicitly listed finished-piece photos into the site and README."""
+"""Render the selected design pages, photographs and repository notes."""
 from pathlib import Path, PurePosixPath
 import html
 import json
@@ -48,9 +48,12 @@ def html_section(photos, prefix=''):
         pattern_url = html.escape(prefix + 'patterns/' + photo['pattern_id'] + '/', quote=True)
         caption = html.escape(photo.get('caption', ''))
         credit = html.escape(photo.get('credit', ''))
+        dimensions = ''
+        if photo.get('width') and photo.get('height'):
+            dimensions = f' width="{int(photo["width"])}" height="{int(photo["height"])}"'
         cards.append(
             '<figure class="finished-photo"><a class="finished-photo-image" href="' + src + '">'
-            '<img src="' + src + '" alt="' + html.escape(photo['alt'], quote=True) + '" loading="lazy">'
+            '<img src="' + src + '" alt="' + html.escape(photo['alt'], quote=True) + '"' + dimensions + ' loading="lazy">'
             '</a><figcaption><a class="finished-photo-title" href="' + pattern_url + '">' + title + '</a>'
             + ('<p>' + caption + '</p>' if caption else '')
             + ('<p class="photo-credit">Photo: ' + credit + '</p>' if credit else '')
@@ -86,6 +89,7 @@ def replace_section(path, section, start=START, end=END):
 
 
 def render(root):
+    from render_design_pages import render_design_page
     patterns = json.loads((root / 'docs/catalog.json').read_text(encoding='utf-8'))['patterns']
     photos = collect_photos(root, patterns)
     inspiration = collect_photos(root, patterns, 'inspiration_images', 'inspiration')
@@ -104,17 +108,8 @@ def render(root):
     for pattern in patterns:
         selected = [photo for photo in photos if photo['pattern_id'] == pattern['id']]
         folder = root / 'docs/patterns' / pattern['id']
-        replace_section(folder / 'index.html', html_section(selected, '../../'))
         references = [photo for photo in inspiration if photo['pattern_id'] == pattern['id']]
-        reference_section = ''
-        if references:
-            reference_section = html_section(references, '../../').replace(START, '').replace(END, '')
-            reference_section = reference_section.replace('finished-embroidery', 'inspiration')
-            reference_section = reference_section.replace('ON FABRIC', 'BEHIND THE DESIGN')
-            reference_section = reference_section.replace('Finished embroidery', 'Inspiration and design artwork')
-            reference_section = reference_section.replace('Photographs of completed pieces, shared alongside their patterns.',
-                'Saved artwork and visual references used while developing the design.')
-        replace_section(folder / 'index.html', INSP_START + reference_section + INSP_END, INSP_START, INSP_END)
+        render_design_page(root, pattern, selected, references)
         photo_folder = folder / 'photos'
         photo_folder.mkdir(exist_ok=True)
         (photo_folder / 'README.md').write_text(

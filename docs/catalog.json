@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "title": "Mara's Embroidery Library",
   "author": "Mara Alexeev",
   "path_base": "Resolve all paths relative to this catalog.json URL.",
@@ -22,8 +22,8 @@
       "machine_file": "patterns/waggle-dance/Waggle-Dance-v1.pes",
       "source": "patterns/waggle-dance/Waggle-Dance-editable.svg",
       "instructions": "patterns/waggle-dance/README.txt",
-      "testing_status": "Test sewing pending",
-      "testing_detail": "Machine commands checked; a physical sew-out has not been confirmed.",
+      "testing_status": "Finished piece photographed",
+      "testing_detail": "A completed piece is photographed below. Machine commands have been checked; exact sewing settings and laundering results have not been recorded.",
       "preview_type": "software simulation",
       "file_format": "PES v1",
       "hoop_mm": [
@@ -42,11 +42,151 @@
           "src": "patterns/waggle-dance/photos/waggle-dance-finished-01.jpg",
           "alt": "Three honeybees embroidered in dark and gold thread, joined by a pale looping trail on blue knit fabric.",
           "caption": "Completed Waggle Dance embroidery on blue knit fabric. Photograph supplied by Mara Alexeev.",
+          "approved_for_publication": true,
+          "width": 1280,
+          "height": 956
+        }
+      ],
+      "inspiration_images": [
+        {
+          "src": "patterns/waggle-dance/inspiration/approved-concept.png",
+          "alt": "Concept illustration of three detailed honeybees and a dashed looping trail on blue knit fabric.",
+          "caption": "Approved natural-honeybee concept illustration. This planning image guided the digitizing; it is not a photograph or a machine stitch preview.",
+          "approved_for_publication": true,
+          "width": 1464,
+          "height": 1074
+        }
+      ],
+      "machine": "Brother Skitch PP1",
+      "backstory": [
+        "Waggle Dance began with the idea of three honeybees connected by a looping dance trail. The natural-bee concept was preferred over an earlier cartoon approach, with one bee facing upward and two turning through the return loops.",
+        "The design was planned for cornflower-blue cotton knit and a single 100 × 100 mm hoop on the Brother Skitch PP1. The bees needed to remain recognizable at a small scale, so the detailed concept became a lighter arrangement of stripes, fine legs, open wings and a continuous trail."
+      ],
+      "package_summary": "The main design, four short entry tests, editable and stitch-level SVGs, a software preview, instructions and command checks are included in the ZIP.",
+      "file_overview": [
+        {
+          "title": "Machine file and instructions",
+          "description": "Use the PES on the Skitch PP1. Read the exact thread-loading order before sewing.",
+          "links": [
+            {
+              "label": "PES",
+              "path": "patterns/waggle-dance/Waggle-Dance-v1.pes"
+            },
+            {
+              "label": "Instructions",
+              "path": "patterns/waggle-dance/README.txt"
+            }
+          ]
+        },
+        {
+          "title": "Editable source",
+          "description": "Geometry for future changes. A new export needs its own stitch checks.",
+          "links": [
+            {
+              "label": "Editable SVG",
+              "path": "patterns/waggle-dance/Waggle-Dance-editable.svg"
+            }
+          ]
+        },
+        {
+          "title": "Four entry tests",
+          "description": "Short fragments reproduce the initial start and each color change at the original coordinates.",
+          "links": [
+            {
+              "label": "01",
+              "path": "patterns/waggle-dance/01-Initial-start-test.pes"
+            },
+            {
+              "label": "02",
+              "path": "patterns/waggle-dance/02-Color-1-to-2-test.pes"
+            },
+            {
+              "label": "03",
+              "path": "patterns/waggle-dance/03-Color-2-to-3-test.pes"
+            },
+            {
+              "label": "04",
+              "path": "patterns/waggle-dance/04-Color-3-to-4-test.pes"
+            }
+          ]
+        },
+        {
+          "title": "Stitch record",
+          "description": "The stitch-level drawing and audit record the exported machine commands.",
+          "links": [
+            {
+              "label": "Stitch SVG",
+              "path": "patterns/waggle-dance/Waggle-Dance-stitches.svg"
+            },
+            {
+              "label": "Command checks",
+              "path": "patterns/waggle-dance/PES-command-checks.json"
+            }
+          ]
+        }
+      ],
+      "variations": [
+        {
+          "id": "without-text",
+          "title": "Original — without text",
+          "lettering": "No text",
+          "description": "Three bees and their looping trail, in one hooping.",
+          "dimensions_mm": [
+            72.8,
+            49.8
+          ],
+          "download": "patterns/waggle-dance/Waggle-Dance-PES.zip",
+          "machine_file": "patterns/waggle-dance/Waggle-Dance-v1.pes",
+          "source": "patterns/waggle-dance/Waggle-Dance-editable.svg",
+          "instructions": "patterns/waggle-dance/README.txt",
+          "preview": "patterns/waggle-dance/Waggle-Dance-preview.png",
+          "preview_alt": "Software stitch preview of three honeybees and a looping trail on cornflower blue.",
           "approved_for_publication": true
         }
       ],
-      "inspiration_images": [],
-      "machine": "Brother Skitch PP1"
+      "variations_note": "One version is currently shared: the design without text. Additional versions, including lettering variations, will appear here when shared.",
+      "physical_notes": [
+        "The finished piece below shows the bees and trail sewn on blue knit fabric. Mara supplied this photograph for the collection.",
+        "The design was planned for cornflower-blue cotton knit. Stabilizer details, exact sewing settings and laundering results for the photographed piece have not been recorded."
+      ],
+      "troubleshooting": [
+        {
+          "title": "The knit puckers or stretches",
+          "body": "Use suitable soft cut-away embroidery stabilizer according to its directions, and hoop the knit without stretching it. Try the design on matching stabilized scrap before a new garment."
+        },
+        {
+          "title": "Fine details or travel threads need attention",
+          "body": "The wings deliberately have open interiors, and the dark legs are very fine. Check contrast on your fabric. Clip remaining jump threads around the details; the file also retains intentional trims between separate objects."
+        },
+        {
+          "title": "A start or color change behaves poorly",
+          "body": "The ZIP includes four short entry tests: the initial start and all three color transitions. Use fresh stabilized scrap at the supplied size to isolate the entry before sewing the full design."
+        },
+        {
+          "title": "An edited version sews differently",
+          "body": "Re-exporting the editable SVG can change anchors and positioning travel. Check the new encoded PES, regenerate entry tests and the preview, and give the revision a distinct filename and import label."
+        }
+      ],
+      "lessons_learned": [
+        {
+          "title": "Simplify details to suit the scale",
+          "body": "Fine fur and wing veins from the concept were simplified for bee bodies about 20 mm long. Sparse gold strokes suggest hair, while open wing interiors let the fabric show through."
+        },
+        {
+          "title": "A continuous trail reduces loose ends",
+          "body": "The concept’s isolated dashes became a fine double-running trail, interrupted around the bees. This avoids the many short jump threads that separate stitched dashes would create."
+        },
+        {
+          "title": "Build adjacent color areas",
+          "body": "The dark and honey-colored abdomen regions sit beside one another rather than forming two complete overlapping fills. Khaki supplies softer honey-brown bands from the available thread set."
+        },
+        {
+          "title": "Keep the export checks with the design",
+          "body": "The final start, all three color changes and 52 trimmed restarts were reviewed. Intentional anchors and trims were retained. The entry tests preserve the exact transitions for later checks."
+        }
+      ],
+      "preview_width": 1600,
+      "preview_height": 1456
     },
     {
       "id": "navier-stokes",
@@ -88,7 +228,9 @@
           "src": "patterns/navier-stokes/photos/navier-stokes-finished-01.jpg",
           "alt": "Completed Navier–Stokes embroidery in blue, teal, pale green, violet and gold thread on light woven fabric.",
           "caption": "The completed Navier–Stokes embroidery on light woven fabric. Photograph supplied by Mara Alexeev.",
-          "approved_for_publication": true
+          "approved_for_publication": true,
+          "width": 3072,
+          "height": 4080
         }
       ],
       "inspiration_images": [
@@ -96,10 +238,121 @@
           "src": "patterns/navier-stokes/inspiration/design-artwork.png",
           "alt": "Flat design artwork showing intertwined blue, turquoise and gold vortex ribbons on white.",
           "caption": "Saved design artwork: a simplified redraw made during digitizing. The original annotated inspiration image was not retained.",
+          "approved_for_publication": true,
+          "width": 1200,
+          "height": 1200
+        }
+      ],
+      "machine": "Brother Skitch PP1",
+      "backstory": [
+        "Navier–Stokes began with a swirling reference image. The saved redraw turns that movement into intertwined ribbons in amber, blue, aqua, navy and teal, prepared for a single 100 × 100 mm hoop on the Brother Skitch PP1.",
+        "The original annotated reference image is no longer retained. The artwork below is the simplified redraw saved during digitizing. After sewing the original PES successfully, Mara chose to preserve that machine file exactly as it was."
+      ],
+      "package_summary": "The ZIP contains the preserved original PES, editable SVG, software preview, original production worksheet, current instructions and a machine-command readback.",
+      "file_overview": [
+        {
+          "title": "Machine file and instructions",
+          "description": "Use the PES on the Skitch PP1. Read the exact thread-loading order before sewing.",
+          "links": [
+            {
+              "label": "PES",
+              "path": "patterns/navier-stokes/ns_zigzag_1.pes"
+            },
+            {
+              "label": "Instructions",
+              "path": "patterns/navier-stokes/README.txt"
+            }
+          ]
+        },
+        {
+          "title": "Editable source",
+          "description": "Geometry for future changes. A new export needs its own stitch checks.",
+          "links": [
+            {
+              "label": "Editable SVG",
+              "path": "patterns/navier-stokes/ns_zigzag_1.svg"
+            }
+          ]
+        },
+        {
+          "title": "Original production worksheet",
+          "description": "The saved design-stage thread plan and counts.",
+          "links": [
+            {
+              "label": "Worksheet",
+              "path": "patterns/navier-stokes/production-worksheet.html"
+            }
+          ]
+        },
+        {
+          "title": "Export readback",
+          "description": "Counts and entry checks from the preserved PES.",
+          "links": [
+            {
+              "label": "Readback notes",
+              "path": "patterns/navier-stokes/publication-checks.json"
+            }
+          ]
+        }
+      ],
+      "variations": [
+        {
+          "id": "without-text",
+          "title": "Original — without text",
+          "lettering": "No text",
+          "description": "The original ribbon design, preserved after a successful sew-out.",
+          "dimensions_mm": [
+            80.1,
+            92.1
+          ],
+          "download": "patterns/navier-stokes/Navier-Stokes-PES.zip",
+          "machine_file": "patterns/navier-stokes/ns_zigzag_1.pes",
+          "source": "patterns/navier-stokes/ns_zigzag_1.svg",
+          "instructions": "patterns/navier-stokes/README.txt",
+          "preview": "patterns/navier-stokes/preview.png",
+          "preview_alt": "Software preview of intertwined amber, blue, aqua, navy and teal ribbons on cream.",
           "approved_for_publication": true
         }
       ],
-      "machine": "Brother Skitch PP1"
+      "variations_note": "One version is currently shared: the design without text. Additional versions, including lettering variations, will appear here when shared.",
+      "physical_notes": [
+        "Mara reported successfully sewing the original file and supplied this photograph of the finished embroidery on light woven fabric. The downloadable PES is preserved byte for byte.",
+        "The precise fabric, stabilizer and thread setup were not recorded. The thread colors in the photograph differ from the illustrative palette in the software preview."
+      ],
+      "troubleshooting": [
+        {
+          "title": "The machine’s color labels look different",
+          "body": "Use the numbered sequence in the instructions and the original worksheet to plan the threads. There are six loads using five intended colors: aqua is loaded again at the end. Brother spool numbers were not verified for this original design."
+        },
+        {
+          "title": "The stitch and trim counts disagree",
+          "body": "The original worksheet reports 8,875 design stitches and 28 trims. Reading the exported PES gives 9,147 sewing points and 74 trim commands. The export includes additional anchor and travel commands; the file overview uses its readback counts."
+        },
+        {
+          "title": "A start bunches on a new fabric or setup",
+          "body": "This original contains tightly repeated anchors and cut-marked entry travel. Those commands remain because Mara successfully sewed the file and requested its preservation. Test on stabilized scrap before a new setup. Any proposed repair should be a separate, clearly named version."
+        },
+        {
+          "title": "An edit changes how the design sews",
+          "body": "Keep the preserved original available. A new export from the SVG needs checks of its initial start, every color entry and trimmed restarts, plus a new preview and appropriately named test files."
+        }
+      ],
+      "lessons_learned": [
+        {
+          "title": "Inspect the exported file",
+          "body": "The production worksheet and the final PES describe different stages of the process. Reading back the machine file revealed the extra anchor and travel commands and established the counts used in the collection."
+        },
+        {
+          "title": "Keep a successfully sewn original",
+          "body": "The entry review identified repeated drops and cut-marked travel. Mara’s successful sew-out and request to preserve the file meant those commands were documented and retained, rather than silently changed."
+        },
+        {
+          "title": "Separate references, previews and results",
+          "body": "The saved redraw, software preview and physical photograph record three different stages. Keeping them separately labeled makes the changes in detail, texture and thread color visible."
+        }
+      ],
+      "preview_width": 900,
+      "preview_height": 1026
     }
   ],
   "creator_note": "Made by Mara Alexeev with Codex"

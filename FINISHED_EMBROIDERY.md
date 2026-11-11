@@ -23,7 +23,7 @@ Use this section for photographs of real completed embroidery. Keep software pre
 
 This is an example entry, not a photo currently in the collection. Optional `credit` is plain text.
 
-4. Run `python3 render_finished_photos.py`. This updates the homepage, each design page, the repository README, and photo-folder READMEs from the explicit catalog entries. It never searches for or imports photographs from the working collection. Empty lists display a short “no photos shared yet” message, without broken image placeholders.
+4. Run `python3 render_finished_photos.py`. This updates the homepage photo section, complete design pages and their DESIGN.md companions, the repository README, and photo-folder READMEs from the explicit catalog entries. The design-page structure is documented in [DESIGN_PAGES.md](DESIGN_PAGES.md). It never searches for or imports photographs from the working collection. Empty lists display a short “no photos shared yet” message, without broken image placeholders.
 5. Review the generated pages and captions. Add the exact image paths to `.gitignore` exceptions and `PUBLIC_FILES.json`; update hashes for the changed pages and catalog, then run `python3 check_publication.py`. Publish only the reviewed files and verify the live pages.
 
 Photos live alongside the design pages and are separate from the machine-file ZIP packages. Adding a photo does not change a PES file or its testing status. Update testing notes only when there is actual evidence for the specific file version.

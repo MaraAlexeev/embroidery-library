@@ -10,6 +10,10 @@ Publish a design only after the owner explicitly selects it for public sharing. 
 6. Inspect the complete proposed upload. Push only this collection. GitHub Pages serves `main` → `/docs`; it contains no connection to the private working collection.
 7. Verify the live design pages and downloads after publishing.
 
+## Design pages and variations
+
+Follow [DESIGN_PAGES.md](DESIGN_PAGES.md) to maintain backstories, file overviews, physical observations and process lessons in the catalog. Add separately selected variations with distinct files and their own instructions. Rebuild the static pages with `python3 render_finished_photos.py`.
+
 ## Finished-piece photos
 
 Use the dedicated [finished embroidery workflow](FINISHED_EMBROIDERY.md) for photographs. Only photos explicitly listed in a design's `finished_photos` catalog entries are rendered. A successful sew-out report alone is not a photograph. Adding photos never re-exports a PES file or automatically updates its testing status.

@@ -6,7 +6,7 @@ Browse the [gallery](https://MaraAlexeev.github.io/embroidery-library/) for prev
 
 | Design | Size | Format | Testing status |
 | --- | --- | --- | --- |
-| [Waggle Dance](docs/patterns/waggle-dance/) | 72.8 × 49.8 mm | PES v1 | Physical test sewing pending |
+| [Waggle Dance](docs/patterns/waggle-dance/) | 72.8 × 49.8 mm | PES v1 | Finished piece photographed; laundering not documented |
 | [Navier–Stokes](docs/patterns/navier-stokes/) | 80.1 × 92.1 mm | PES v1 | Successful sew-out reported; original file preserved |
 
 Both designs are made for the Brother Skitch PP1 and fit its 100 × 100 mm / 4 × 4 inch hoop. Each package contains its machine file, editable source, software preview and instructions. Read the exact thread-loading sequence and testing notes before sewing. Design previews are software simulations; finished-piece photographs are labeled separately.
@@ -32,12 +32,25 @@ Photo folders: [Waggle Dance](docs/patterns/waggle-dance/photos/) · [Navier–S
 <!-- inspiration:start -->
 ## Inspiration and design artwork
 
+<img src="docs/patterns/waggle-dance/inspiration/approved-concept.png" alt="Concept illustration of three detailed honeybees and a dashed looping trail on blue knit fabric." width="560">
+
+<strong>Waggle Dance</strong> — Approved natural-honeybee concept illustration. This planning image guided the digitizing; it is not a photograph or a machine stitch preview.
+
 <img src="docs/patterns/navier-stokes/inspiration/design-artwork.png" alt="Flat design artwork showing intertwined blue, turquoise and gold vortex ribbons on white." width="560">
 
 <strong>Navier–Stokes</strong> — Saved design artwork: a simplified redraw made during digitizing. The original annotated inspiration image was not retained.
 
 Reference artwork is labeled separately from physical embroidery.
 <!-- inspiration:end -->
+
+## Design stories and process notes
+
+Each design page now follows the same sequence: backstory and inspiration, files and variations, physical embroidery, then troubleshooting and lessons learned.
+
+- [Waggle Dance design notes](docs/patterns/waggle-dance/DESIGN.md)
+- [Navier–Stokes design notes](docs/patterns/navier-stokes/DESIGN.md)
+
+See [DESIGN_PAGES.md](DESIGN_PAGES.md) for maintaining the sections and adding selected variations.
 
 ## Publishing
 
