@@ -1,0 +1,116 @@
+EMBROIDERY DESIGN NOTES
+
+Copy this template for each design. Fragments, lists and unfinished thoughts
+are welcome. Skip anything that does not apply; there is no need to fill it
+all in at once.
+
+Design name:
+Date / version:
+The design in one sentence:
+
+
+1. BACKSTORY AND INSPIRATION
+
+What sparked the idea? Why did I want to make this?
+
+
+What did I want it to feel like or communicate?
+
+
+What details mattered most to me?
+
+
+Inspiration images or references (repeat for each):
+  File name or link:
+  What it is: original reference / concept illustration / redraw / other
+  Creator or source, if known:
+  What inspired me about it:
+  Caption I would like:
+
+Image I want on the left at the top of the page:
+
+
+2. FILES AND DESIGN VARIATIONS
+
+What does the current version include?
+
+
+Main embroidery file or folder, if known:
+Size, if known:
+Machine: Brother Skitch PP1
+Hoop: 100 x 100 mm / 4 x 4 inches
+
+Variations (repeat for each; ideas are welcome too):
+  Name: e.g. without text, with text, smaller version
+  What is different:
+  Lettering, if any — exact wording:
+  Stage: idea / in progress / ready to try / sewn
+  Related files or pictures:
+  What I like, dislike or still want to change:
+
+
+3. THE PHYSICAL EMBROIDERY
+
+What did I sew it on? Fabric type and color:
+Version or filename sewn, if known:
+Thread choices or changes:
+Stabilizer and other setup notes, if useful:
+
+How did it turn out? What surprised me?
+
+
+How does it compare with the inspiration or preview?
+
+
+Finished photos (repeat for each):
+  File name or link:
+  What it shows / which version:
+  Caption I would like:
+  Photographer credit, if needed:
+
+Photo I want on the right at the top of the page:
+How it held up after wearing or washing, if tried:
+
+
+4. TROUBLESHOOTING AND LESSONS
+
+An issue I noticed (repeat this block for each issue):
+  What happened, and when:
+  What I tried changing:
+  What happened afterward:
+  What I am still unsure about:
+
+What changed between the first idea and the finished design, and why?
+
+
+What worked especially well?
+
+
+What would I repeat, avoid or do differently next time?
+
+
+What would I tell someone making this design?
+
+
+5. WORDS AND IMAGES FOR THE WEBSITE
+
+Sentences I want to keep exactly as written:
+
+
+Notes I would like turned into website text:
+
+
+Specific images and variations I want to share publicly:
+
+
+6. LOOSE THOUGHTS / NEXT IDEAS
+
+
+
+USING THESE NOTES
+When ready, ask to turn these notes into a website update, or say
+"publish my edits" and identify the notes to use. This file does not update
+the website automatically.
+
+Anything saved to the public GitHub repository is publicly visible, including
+draft notes. Keep private thoughts in a copy outside the repository.

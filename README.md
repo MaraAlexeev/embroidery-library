@@ -52,6 +52,10 @@ Each design page now follows the same sequence: backstory and inspiration, files
 
 See [DESIGN_PAGES.md](DESIGN_PAGES.md) for maintaining the sections and adding selected variations.
 
+## Writing your design notes
+
+Copy [DESIGN-NOTES-TEMPLATE.txt](DESIGN-NOTES-TEMPLATE.txt) for each design. Use it to record the backstory, references, variations, sewing results and lessons in ordinary text. When ready, ask to turn your notes into a website update. Notes saved in this public repository are publicly visible.
+
 ## Publishing
 
 Only individually selected designs belong here. New designs and working files are not automatically synchronized into this repository. See [PUBLISHING.md](PUBLISHING.md).

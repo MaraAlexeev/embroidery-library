@@ -5,11 +5,12 @@
     "navier-stokes"
   ],
   "files": {
-    ".gitignore": "63789ad502bdfd6341bcc9ddf8e5324206e4a3ccd24718adbfb2cce245eceaac",
+    ".gitignore": "10b0fcef68e7a6cc7d9a2ae7b2ce95ef9a0a63d6fa8eda53effdbafc2163c413",
+    "DESIGN-NOTES-TEMPLATE.txt": "69d1e203786a05b4f4a4af24af5a85149777d1a1c747df65f307152a5dfa8496",
     "DESIGN_PAGES.md": "762d208c27ff2481d210c85f993959da2a44a879a3c3e5328461f0e80009719a",
     "FINISHED_EMBROIDERY.md": "218a7f8d33da6f54a774f6078d75d9efa0fdce5cc5546c5b9fbd45bcdc4d62a5",
     "PUBLISHING.md": "4c411e8f10a5f2fc7221345394473724fc58319a9776ddf42bb366d6fcf77a79",
-    "README.md": "b38b6ed4f10c643cec231c69ae0e9d3cdd808580cd46603ea836f9cb63e40d5b",
+    "README.md": "4a2a7ba3b2554d004e3bc3d57d8b177b2202787495cfef8ad5925b76496232c9",
     "check_publication.py": "222e3dc33bb582eb926c3b0f8dcf8dcdac714e7cf8abc82090fc447fb8d95d33",
     "docs/.nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "docs/catalog.json": "f9952ac684167c3ccd1c86d5ccb6f77b7191e821e917d772b009a8b33bce1568",
