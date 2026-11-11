@@ -39,11 +39,32 @@ def image_cards(root, pattern, images):
     return '<div class="process-image-grid">' + ''.join(cards) + '</div>' if cards else ''
 
 
+def comparison_card(root, pattern, image, title, ident):
+    heading = '<h2>' + esc(title) + '</h2>'
+    if not image:
+        return '<div class="comparison-card" id="' + ident + '">' + heading + '<p class="comparison-empty">No inspiration image has been shared yet.</p></div>'
+    src = esc(local_url(root, pattern, image['src']))
+    dimensions = ''
+    if image.get('width') and image.get('height'):
+        dimensions = f' width="{int(image["width"])}" height="{int(image["height"])}"'
+    return ('<figure class="comparison-card" id="' + ident + '">' + heading
+            + '<a class="comparison-image" href="' + src + '"><img src="' + src
+            + '" alt="' + esc(image['alt']) + '"' + dimensions + ' loading="eager"></a>'
+            + '<figcaption>' + esc(image.get('caption', ''))
+            + ('<br>' + esc(image['credit']) if image.get('credit') else '') + '</figcaption></figure>')
+
+
 def render_design_page(root, pattern, photos, inspiration):
     title = esc(pattern['title'])
     story = paragraphs(pattern.get('backstory', [])) or '<p>Backstory notes will be added here.</p>'
-    references = image_cards(root, pattern, inspiration)
-    inspiration_body = ('<div id="inspiration"><h3>Inspiration &amp; design artwork</h3>' + references + '</div>') if references else ''
+    references = image_cards(root, pattern, inspiration[1:])
+    inspiration_body = ('<div><h3>More inspiration &amp; design artwork</h3>' + references + '</div>') if references else ''
+    final_image = photos[0] if photos else {
+        'src': pattern['preview'], 'alt': pattern['preview_alt'],
+        'width': pattern.get('preview_width'), 'height': pattern.get('preview_height'),
+        'caption': 'Software stitch preview. A finished-piece photograph has not been shared yet.'}
+    comparison = (comparison_card(root, pattern, inspiration[0] if inspiration else None, 'Inspiration', 'inspiration')
+                  + comparison_card(root, pattern, final_image, 'Final design', 'final-design'))
     preview = esc(local_url(root, pattern, pattern['preview']))
     preview_dimensions = ''
     if pattern.get('preview_width') and pattern.get('preview_height'):
@@ -92,9 +113,10 @@ def render_design_page(root, pattern, photos, inspiration):
 <meta name="description" content="{esc(pattern['description'])} Backstory, files, finished embroidery and process notes.">
 <title>{title} · Mara's Embroidery Library</title><link rel="stylesheet" href="../../styles.css"></head>
 <body><a class="skip" href="#main">Skip to content</a>
-<header class="wrap"><a class="brand" href="../../index.html"><span class="mark" aria-hidden="true">✳</span> Mara's Embroidery Library</a><nav aria-label="Main"><a href="../../index.html#collection">The collection</a><a href="../../index.html#finished-embroidery">Finished embroidery</a><a href="https://github.com/MaraAlexeev/embroidery-library">GitHub ↗</a></nav></header>
+<header class="wrap"><a class="brand" href="../../index.html"><span class="mark" aria-hidden="true">✳</span> Mara's Embroidery Library</a><nav aria-label="Main"><a href="../../index.html#collection">The collection</a><a href="https://github.com/MaraAlexeev/embroidery-library">GitHub ↗</a></nav></header>
 <main id="main" class="pattern-page">
 <div class="pattern-heading wrap"><a class="back" href="../../index.html#collection">← Back to the collection</a><p class="eyebrow">{esc(pattern['category'])}</p><h1>{title}</h1><p class="intro">{esc(pattern['description'])}</p></div>
+<div class="design-comparison wrap" aria-label="Inspiration and final design">{comparison}</div>
 <nav class="page-nav wrap" aria-label="On this page"><a href="#backstory">Backstory</a><a href="#files">Files &amp; variations</a><a href="#finished-embroidery">Physical embroidery</a><a href="#process">Troubleshooting &amp; lessons</a></nav>
 <section class="design-section wrap" id="backstory" aria-labelledby="backstory-title"><p class="eyebrow">01 / THE IDEA</p><h2 id="backstory-title">Backstory &amp; inspiration</h2><div class="backstory-layout"><div class="prose">{story}</div>{inspiration_body}</div></section>
 <section class="design-section wrap" id="files" aria-labelledby="files-title"><p class="eyebrow">02 / THE PATTERN</p><h2 id="files-title">Files &amp; variations</h2>

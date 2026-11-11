@@ -24,7 +24,7 @@ Photographs of the physical pieces, separate from the software previews.
 
 <strong>Navier–Stokes</strong> — The completed Navier–Stokes embroidery on light woven fabric. Photograph supplied by Mara Alexeev.
 
-[View the finished embroidery section](https://maraalexeev.github.io/embroidery-library/#finished-embroidery).
+Physical embroidery on the website: [Waggle Dance](https://maraalexeev.github.io/embroidery-library/patterns/waggle-dance/#finished-embroidery) · [Navier–Stokes](https://maraalexeev.github.io/embroidery-library/patterns/navier-stokes/#finished-embroidery).
 
 Photo folders: [Waggle Dance](docs/patterns/waggle-dance/photos/) · [Navier–Stokes](docs/patterns/navier-stokes/photos/). See [FINISHED_EMBROIDERY.md](FINISHED_EMBROIDERY.md) for adding selected photographs.
 <!-- finished-embroidery:end -->

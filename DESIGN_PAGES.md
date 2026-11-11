@@ -1,6 +1,10 @@
 # Design pages
 
-Each design page and its `DESIGN.md` companion follow the same order:
+Each design page opens with a two-column comparison: inspiration on the left and the finished embroidery photograph on the right. The images stay in this order on narrow screens. If no physical photograph is available, the right side uses a clearly labeled software preview; missing inspiration gets a short text notice. Images retain their complete contents without cropping.
+
+The landing page shows only the collection, without a physical-photo gallery or preparation section.
+
+Below the comparison, each design page and its `DESIGN.md` companion follow the same order:
 
 1. Backstory and inspiration, including approved reference or concept images when available.
 2. File overview and design variations, with a software preview, dimensions and downloads.

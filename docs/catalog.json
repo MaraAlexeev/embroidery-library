@@ -355,5 +355,20 @@
       "preview_height": 1026
     }
   ],
-  "creator_note": "Made by Mara Alexeev with Codex"
+  "creator_note": "Made by Mara Alexeev with Codex",
+  "design_page_layout": {
+    "opening_comparison": [
+      "inspiration",
+      "finished_photo_or_preview"
+    ],
+    "section_order": [
+      "backstory",
+      "files_and_variations",
+      "physical_embroidery",
+      "troubleshooting_and_lessons"
+    ]
+  },
+  "landing_page_sections": [
+    "collection"
+  ]
 }

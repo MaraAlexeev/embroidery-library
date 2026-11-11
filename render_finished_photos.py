@@ -93,12 +93,12 @@ def render(root):
     patterns = json.loads((root / 'docs/catalog.json').read_text(encoding='utf-8'))['patterns']
     photos = collect_photos(root, patterns)
     inspiration = collect_photos(root, patterns, 'inspiration_images', 'inspiration')
-    replace_section(root / 'docs/index.html', html_section(photos))
     photo_links = ' · '.join('[' + p['title'] + '](docs/patterns/' + p['id'] + '/photos/)' for p in patterns)
+    website_photo_links = ' · '.join('[' + p['title'] + '](https://maraalexeev.github.io/embroidery-library/patterns/' + p['id'] + '/#finished-embroidery)' for p in patterns)
     replace_section(root / 'README.md', START + '\n## Finished embroidery\n\n'
                     + 'Photographs of the physical pieces, separate from the software previews.\n\n'
                     + markdown_photos(photos, 'docs/')
-                    + '\n\n[View the finished embroidery section](https://maraalexeev.github.io/embroidery-library/#finished-embroidery).'
+                    + '\n\nPhysical embroidery on the website: ' + website_photo_links + '.'
                     + '\n\nPhoto folders: ' + photo_links + '. '
                     + 'See [FINISHED_EMBROIDERY.md](FINISHED_EMBROIDERY.md) for adding selected photographs.\n' + END)
     replace_section(root / 'README.md', INSP_START + '\n## Inspiration and design artwork\n\n'
