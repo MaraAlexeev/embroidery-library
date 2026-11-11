@@ -1,0 +1,38 @@
+{
+  "reviewed_on": "2026-11-11",
+  "selected_designs": [
+    "waggle-dance",
+    "navier-stokes"
+  ],
+  "files": {
+    ".gitignore": "eb08b269ae55f2cd63389176bdd79b36b4b3ef7750afac7adb7f3efe76162de8",
+    "PUBLISHING.md": "d638ea7a9223ca0f175092394a200f3af01a3a5aadefcd72214caa27d81e267f",
+    "README.md": "b51083f6009dd4cd09474d3d3f49530af9e6a34298444bc38e93a88558a295f1",
+    "check_publication.py": "222e3dc33bb582eb926c3b0f8dcf8dcdac714e7cf8abc82090fc447fb8d95d33",
+    "docs/.nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "docs/catalog.json": "eb91fbff48d8674ebaaa5f9969574c484eb34fd72f96847944189cce56cae88d",
+    "docs/index.html": "b2854075c0536f7be58966d3b380fb4bf592f4bbed780ddd8029b0c32e1d200e",
+    "docs/patterns/navier-stokes/Navier-Stokes-PES.zip": "6b262c5e0e6a6d00568f3444225760627d49dbb6ea5756a8a5cd069715277ec8",
+    "docs/patterns/navier-stokes/README.txt": "cc6b56cd65679367d98b4df32cbefd765e52668389c683d5639ccc0847820344",
+    "docs/patterns/navier-stokes/index.html": "fd44b8abbbc8d5a00a5f18faed9677b296afa33844e1c84a9cd7eaeff1f7d2e0",
+    "docs/patterns/navier-stokes/ns_zigzag_1.pes": "b283c5ffaf37090806f1c134a1f6f3ce4ce24d50e25d93601dc2e916efce4e53",
+    "docs/patterns/navier-stokes/ns_zigzag_1.svg": "d8b6d2db5f230c4cb416ed000d6943800bb4c771d3742933ecac356b30468e05",
+    "docs/patterns/navier-stokes/preview.png": "01d62e79e07dd7cbff454314f8d3cc4730874871909dc1a99a499f168a73d5e9",
+    "docs/patterns/navier-stokes/production-worksheet.html": "8c1ce21452c83ce29dd481294b4d73e326ce12cb081f10367cd0ca0e08e5b3ad",
+    "docs/patterns/navier-stokes/publication-checks.json": "2b59bf7719f2af86844e45df418b7080514ea0fb21a9b6ffa753080bfb542a3f",
+    "docs/patterns/waggle-dance/01-Initial-start-test.pes": "7910eba5e646956d429b2ff31d1476e5d268c4bdde7801ecf1e4f12f147ebb68",
+    "docs/patterns/waggle-dance/02-Color-1-to-2-test.pes": "d15f6d367134bc504d8bcb86208000157b3849f699ff97e496dc70e6d5d2ee26",
+    "docs/patterns/waggle-dance/03-Color-2-to-3-test.pes": "b53fcf2d93c10d04a95caf91754155b3b1180dae3825054b645baa24cb5d62a9",
+    "docs/patterns/waggle-dance/04-Color-3-to-4-test.pes": "5e841205dc82f2894f47bc6fdc0ed3581d7efc11a1c266970e5e77f927563b57",
+    "docs/patterns/waggle-dance/PES-command-checks.json": "cb905eccda117ca11eaa5b881f25dd6349d40eb505741de34ffa046130baa81a",
+    "docs/patterns/waggle-dance/README.txt": "b5408691a5006781ecda9a1e35042e8d931d03cb3296fadfb914290b651c7371",
+    "docs/patterns/waggle-dance/Waggle-Dance-PES.zip": "5ec820746e1b0ed4a0d7afc569969e02f45a45cd92c7a062bfdf96b352e309cc",
+    "docs/patterns/waggle-dance/Waggle-Dance-editable.svg": "dd0d4ff951b1aee9c3c67e17b1c19e84b4db7cd2dde73952d7477433266b7e5a",
+    "docs/patterns/waggle-dance/Waggle-Dance-preview.png": "fcf995b017460c4d04e3e9eeae6fc26ef3a7bb0830cf4005e730160830adfe6c",
+    "docs/patterns/waggle-dance/Waggle-Dance-stitches.svg": "ee20bba9ede830fcffd2ce10573073e2f906db4b7a96eae3fd5d76b60d083d85",
+    "docs/patterns/waggle-dance/Waggle-Dance-v1.pes": "59521a89e0c449ab07d587bc3cd203df1e786a5c51b59e8a5fd504ff7325acb0",
+    "docs/patterns/waggle-dance/index.html": "ff9e547ecce46450c406f0b66d6f3c6250eb34590514ff2ed29e6574af65bc79",
+    "docs/patterns/waggle-dance/publication-checks.json": "d937dc8e310124f12c22adb7d7734beba6cb52fb862b742ab108670ef9903f85",
+    "docs/styles.css": "34a51ba8bba85863223c89afb7505837893a5369caf937f59a89e32eaa118adf"
+  }
+}

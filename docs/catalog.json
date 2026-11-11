@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "title": "Embroidery Library",
+  "author": "Mara Alexeev",
+  "path_base": "Resolve all paths relative to this catalog.json URL.",
+  "patterns": [
+    {
+      "id": "waggle-dance",
+      "title": "Waggle Dance",
+      "category": "NATURE",
+      "description": "Three honeybees trace the looping language of a waggle dance.",
+      "dimensions_mm": [
+        72.8,
+        49.8
+      ],
+      "sewing_points": 2629,
+      "color_steps": 4,
+      "preview": "patterns/waggle-dance/Waggle-Dance-preview.png",
+      "preview_alt": "Software stitch preview of three honeybees and a looping trail on cornflower blue.",
+      "page": "patterns/waggle-dance/",
+      "download": "patterns/waggle-dance/Waggle-Dance-PES.zip",
+      "machine_file": "patterns/waggle-dance/Waggle-Dance-v1.pes",
+      "source": "patterns/waggle-dance/Waggle-Dance-editable.svg",
+      "instructions": "patterns/waggle-dance/README.txt",
+      "testing_status": "Test sewing pending",
+      "testing_detail": "Machine commands checked; a physical sew-out has not been confirmed.",
+      "preview_type": "software simulation",
+      "file_format": "PES v1",
+      "hoop_mm": [
+        100,
+        100
+      ],
+      "version": "v1",
+      "thread_colors": [
+        "#2d3326",
+        "#cfa05b",
+        "#f6cd27",
+        "#fff58d"
+      ]
+    },
+    {
+      "id": "navier-stokes",
+      "title": "Navier–Stokes",
+      "category": "MATHEMATICS",
+      "description": "Amber and blue ribbons curl through a study of swirling motion.",
+      "dimensions_mm": [
+        80.1,
+        92.1
+      ],
+      "sewing_points": 9147,
+      "color_steps": 6,
+      "preview": "patterns/navier-stokes/preview.png",
+      "preview_alt": "Software preview of intertwined amber, blue, aqua, navy and teal ribbons on cream.",
+      "page": "patterns/navier-stokes/",
+      "download": "patterns/navier-stokes/Navier-Stokes-PES.zip",
+      "machine_file": "patterns/navier-stokes/ns_zigzag_1.pes",
+      "source": "patterns/navier-stokes/ns_zigzag_1.svg",
+      "instructions": "patterns/navier-stokes/README.txt",
+      "testing_status": "Successful sew-out reported",
+      "testing_detail": "Owner reported a successful sew-out on November 11, 2026. The original machine file is preserved.",
+      "preview_type": "software simulation",
+      "file_format": "PES v1",
+      "hoop_mm": [
+        100,
+        100
+      ],
+      "version": "original",
+      "thread_colors": [
+        "#d69b38",
+        "#7f9fc4",
+        "#79e1e2",
+        "#18375c",
+        "#087582",
+        "#79e1e2"
+      ]
+    }
+  ]
+}
