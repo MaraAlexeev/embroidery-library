@@ -37,7 +37,14 @@
         "#f6cd27",
         "#fff58d"
       ],
-      "finished_photos": [],
+      "finished_photos": [
+        {
+          "src": "patterns/waggle-dance/photos/waggle-dance-finished-01.jpg",
+          "alt": "Three honeybees embroidered in dark and gold thread, joined by a pale looping trail on blue knit fabric.",
+          "caption": "Completed Waggle Dance embroidery on blue knit fabric. Photograph supplied by Mara Alexeev.",
+          "approved_for_publication": true
+        }
+      ],
       "inspiration_images": [],
       "machine": "Brother Skitch PP1"
     },

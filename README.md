@@ -16,6 +16,10 @@ Both designs are made for the Brother Skitch PP1 and fit its 100 × 100 mm / 4 �
 
 Photographs of the physical pieces, separate from the software previews.
 
+<img src="docs/patterns/waggle-dance/photos/waggle-dance-finished-01.jpg" alt="Three honeybees embroidered in dark and gold thread, joined by a pale looping trail on blue knit fabric." width="560">
+
+<strong>Waggle Dance</strong> — Completed Waggle Dance embroidery on blue knit fabric. Photograph supplied by Mara Alexeev.
+
 <img src="docs/patterns/navier-stokes/photos/navier-stokes-finished-01.jpg" alt="Completed Navier–Stokes embroidery in blue, teal, pale green, violet and gold thread on light woven fabric." width="560">
 
 <strong>Navier–Stokes</strong> — The completed Navier–Stokes embroidery on light woven fabric. Photograph supplied by Mara Alexeev.
